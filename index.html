@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beats Landing Page</title>
+
+    <!-- adding the css file -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- adding the poppins font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Header section contains navbar -->
+    <header class="header container margin-bottom-sm">
+      <div class="header__container">
+        <div class="beats-logo">
+          <img src="./Photos/beatsLogo.png" alt="" class="brand-logo" />
+        </div>
+        <nav class="header-nav">
+          <ul class="header-nav__list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Case</a></li>
+            <li><a href="#">Product</a></li>
+          </ul>
+          <button class="btn-shop">Shop</button>
+        </nav>
+      </div>
+    </header>
+    <main class="container main">
+      <img src="./Photos/mainImage.png" alt="" class="main__img" />
+
+      <div class="main-product-container">
+        <div class="main-product-bg">
+          <img src="./Photos/onEar.png" alt="" />
+        </div>
+        <section class="hero-section margin-bottom-md">
+          <div class="heading-primary">Beats 3</div>
+          <p>Overview</p>
+          <p class="featured-product__description">
+            Enjoy award-winning Beats sound with wireless listening freedom and
+            a sleek, streamlined design with comfortable padded earphones,
+            delivering first-rate playback.
+          </p>
+          <div class="featured-product__addtocart btn">
+            <img src="./Icons/shoppingBag.png" />
+            <p>Add to Bag</p>
+            <span>N39KK</span>
+          </div>
+        </section>
+      </div>
+      <!-- Testimonial section -->
+      <section class="section-featured margin-bottom-md">
+        <div class="container">
+          <h2 class="heading-featured-in margin-bottom-sm">As featured in</h2>
+          <div class="logos">
+            <img src="./Photos/appleLogo.png" alt="apple logo" />
+            <img src="./Photos/spotifyLogo.png" alt="spotify logo" />
+            <img src="./Photos/amazonLogo.png" alt="amazon logo" />
+            <img src="./Photos/youtubeLogo.png" alt="youtube logo" />
+          </div>
+        </div>
+      </section>
+      <!-- Specification section -->
+      <section class="section-specs margin-bottom-md">
+        <div class="container">
+          <div class="section-specs__background margin-bottom-sm">
+            <img src="./Icons/specsLogo.png" alt="" />
+          </div>
+          <div class="section-specs__container">
+            <div class="section-specs__container-left">
+              <div class="section-specs__features">
+                <img src="./Icons/bluetooth.png" alt="bluetooth icon" />
+                <p>Connection</p>
+                <p>Bluetooth v5.2</p>
+              </div>
+              <div class="section-specs__features">
+                <img src="./Icons/battery.png" alt="battery icon" />
+                <p>Battery</p>
+                <p>Duration 40h</p>
+              </div>
+              <div class="section-specs__features">
+                <img src="./Icons/charger.png" alt="charger icon" />
+                <p>Load</p>
+                <p>Fast Charge 4.2-AAC</p>
+              </div>
+              <div class="section-specs__features">
+                <img src="./Icons/mic.png" alt="mic icon" />
+                <p>Microphone</p>
+                <p>
+                  Supports Apple Siri <br />
+                  and Google
+                </p>
+              </div>
+            </div>
+            <div class="section-specs__img">
+              <img src="./Photos/specsImage.png" alt="" loading="lazy" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Headphone case section highlights -->
+      <section class="section-case margin-bottom-md">
+        <div class="section-case__bg margin-bottom-sm">
+          <img src="./Icons/caseLogo.png" alt="" />
+        </div>
+        <div class="section-case__wrapper">
+          <div class="section-case__img-container">
+            <img
+              src="./Photos/caseImage.png"
+              alt="headphone case"
+              loading="lazy"
+            />
+          </div>
+          <div class="section-case__description">
+            <p>
+              With a comfortable and adaptable case so that you can store it
+              whenever you want, and keep your durability forever. group More
+              Info
+            </p>
+            <div class="more-info-btn btn">
+              <img src="./Icons/group.png" alt="" />
+              <p>More Info</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Buy now product section -->
+      <section class="section-buy-now margin-bottom-md">
+        <div class="section-buy-now__container">
+          <div class="section-buy-now__details">
+            <h3 class="tertiary-heading">Immense yourself in your music</h3>
+            <p>Buy Now, up to 40% off.</p>
+            <div class="section-buy-now__btn btn">
+              <img src="./Icons/shoppingBag.png" alt="shopping bag icon" />
+              <p>Buy Now</p>
+            </div>
+          </div>
+          <div class="section-buy-now__img-container">
+            <img
+              src="./Photos/buyNowSectionImage.png"
+              alt="headphone"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Section product listing -->
+      <section class="section-product-list margin-bottom-md">
+        <div class="product-list__bg margin-bottom-md">
+          <img src="./Icons/productLogo.png" alt="" />
+        </div>
+        <div class="product-list__container">
+          <div class="product">
+            <img
+              src="./Photos/black.png"
+              alt="black color variant of headphone"
+              width="10rem"
+              loading="lazy"
+            />
+            <div class="product__info-btn btn">
+              <div class="product-model">
+                <p>Black</p>
+                <p>N299K</p>
+              </div>
+              <img src="./icons/shoppingBag.png" alt="" />
+            </div>
+          </div>
+          <div class="product">
+            <img
+              src="./Photos/redBlack.png"
+              alt="redBlack color variant of headphone"
+              width="10rem"
+              loading="lazy"
+            />
+            <div class="product__info-btn btn">
+              <div class="product-model">
+                <p>Red Black</p>
+                <p>N299K</p>
+              </div>
+              <img src="./icons/shoppingBag.png" alt="" />
+            </div>
+          </div>
+          <div class="product">
+            <img
+              src="./Photos/nightBlack.png"
+              alt="night black color variant of headphone"
+              width="10rem"
+              loading="lazy"
+            />
+            <div class="product__info-btn btn">
+              <div class="product-model">
+                <p>Night Black</p>
+                <p>N299K</p>
+              </div>
+              <img src="./icons/shoppingBag.png" alt="" />
+            </div>
+          </div>
+          <div class="product">
+            <img
+              src="./Photos/blue.png"
+              alt="blue color variant of headphone"
+              width="10rem"
+              loading="lazy"
+            />
+            <div class="product__info-btn btn">
+              <div class="product-model">
+                <p>Blue</p>
+                <p>N299K</p>
+              </div>
+              <img src="./icons/shoppingBag.png" alt="" />
+            </div>
+          </div>
+          <div class="product">
+            <img
+              src="./Photos/twilightGray.png"
+              alt="twilightGray color variant of headphone"
+              width="10rem"
+              loading="lazy"
+            />
+            <div class="product__info-btn btn">
+              <div class="product-model">
+                <p>Twilight</p>
+                <p>N299K</p>
+              </div>
+              <img src="./icons/shoppingBag.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer section of the webpage -->
+    <footer class="footer margin-bottom-md">
+      <div class="beats-logo">
+        <img src="./Photos/beatsLogo.png" alt="" />
+      </div>
+      <div>
+        <h3>Products</h3>
+        <nav>
+          <ul class="footer__nav">
+            <li><a href="#">Headphones</a></li>
+            <li><a href="#">Earphones</a></li>
+            <li><a href="#">Earbuds</a></li>
+            <li><a href="#">Accessories</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div>
+        <h3>Support</h3>
+        <nav>
+          <ul class="footer__nav">
+            <li><a href="#">Product Help</a></li>
+            <li><a href="#">Register</a></li>
+            <li><a href="#">Updates</a></li>
+            <li><a href="#">Provides</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__right-section">
+        <form action="">
+          <input type="email" name="userEmail" placeholder="Email" />
+          <div class="form__subscribe-btn">
+            <img src="./Icons/rightArrow.png" />
+            <input type="submit" value="Subscribe" />
+          </div>
+        </form>
+        <div class="socials-container">
+          <img src="./Icons/facebook.png" alt="facebook page link" /><img
+            src="./Icons/twitter.png"
+            alt="twitter page link"
+          /><img src="./Icons/instagram.png" alt="instagram page link" /><img
+            src="./Icons/linkedin.png"
+            alt="linkedin page link"
+          />
+        </div>
+
+        <div class="scroll-up">
+          <img src="./Icons/upArrow.png" alt="" />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
